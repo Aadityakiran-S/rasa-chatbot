@@ -1,5 +1,11 @@
+# stuff to set up a virtual environment
 venv
+
 # exclude everything from models folder
-models/*
+rasa/models/*
+
+# you can get this by running rasa visualize
+graph.html 
+
 # except for .gitkeep, so that the folder itself is included
-!models/.gitkeep
+rasa/!models/.gitkeep
